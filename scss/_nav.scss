@@ -1,0 +1,30 @@
+#menu {
+   
+    display: flex;
+    justify-content: space-between;
+    ul{
+        list-style: none;
+        li {
+            color: $letter-Color;
+            a{
+                color: $letter-Color;
+                font-family: $mainFont;
+                font-weight: bold;
+                font-size: 1.1em;
+                text-decoration: none;
+                &:hover{
+                    color: $card-Color;
+                }
+            }
+        } 
+    }
+
+}
+
+#menu img {
+    width: 130px;
+}
+
+div.column img {
+    width: 100%;
+}
