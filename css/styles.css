@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 body {
-  width: auto;
-  margin: auto;
-  box-sizing: border-box;
-  margin-top: 20px;
   background-color: rgb(252, 182, 53);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23CC660F' width='11' height='11'/%3E%3Crect fill='%23cc6911' x='10' width='11' height='11'/%3E%3Crect fill='%23cd6c14' y='10' width='11' height='11'/%3E%3Crect fill='%23cd6e16' x='20' width='11' height='11'/%3E%3Crect fill='%23ce7119' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23ce741b' y='20' width='11' height='11'/%3E%3Crect fill='%23ce761e' x='30' width='11' height='11'/%3E%3Crect fill='%23cf7920' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23cf7c23' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23d07e25' y='30' width='11' height='11'/%3E%3Crect fill='%23d08128' x='40' width='11' height='11'/%3E%3Crect fill='%23d1832a' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23d1862d' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23d1882f' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23d28b32' y='40' width='11' height='11'/%3E%3Crect fill='%23d28d34' x='50' width='11' height='11'/%3E%3Crect fill='%23d39037' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23d3923a' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23d3943c' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23d4973f' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23d49942' y='50' width='11' height='11'/%3E%3Crect fill='%23d59c44' x='60' width='11' height='11'/%3E%3Crect fill='%23d59e47' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23d6a04a' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23d6a34d' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23d6a54f' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23d7a752' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23d7aa55' x='70' width='11' height='11'/%3E%3Crect fill='%23d8ac58' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23d8ae5b' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23d9b05e' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23d9b361' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23dab564' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23dab767' x='80' width='11' height='11'/%3E%3Crect fill='%23dbb96a' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23dbbc6d' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23dcbe70' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23dcc073' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23ddc276' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23dec479' x='90' width='11' height='11'/%3E%3Crect fill='%23dec77c' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23dfc980' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23e0cb83' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23e0cd86' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23e1cf89' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23e2d18c' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23e2d390' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e3d593' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e4d896' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e5da9a' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e5dc9d' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23e6dea0' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23e7e0a4' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23e8e2a7' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23e9e4aa' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23eae6ae' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ebe8b1' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23eceab4' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23edecb8' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
@@ -12,7 +8,7 @@ body {
 
 h1 {
   font-family: "Nunito", sans-serif;
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   font-weight: bold;
@@ -20,10 +16,9 @@ h1 {
 }
 
 h2,
-h3,
-.iframe {
+h3 {
   font-family: "Nunito", sans-serif;
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   font-weight: bold;
@@ -103,24 +98,6 @@ img {
   overflow: hidden;
 }
 
-#error {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
-.error {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
 .accordion-button {
   font-family: "Signika Negative", sans-serif;
   font-weight: bold;
@@ -135,6 +112,31 @@ img {
 
 .card {
   overflow: hidden;
+}
+
+#error {
+  margin: auto;
+  width: 1000px;
+  flex-direction: column;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#info {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#iframe {
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 #menu {
@@ -174,9 +176,32 @@ form {
   margin-top: 20px;
 }
 
+.form {
+  padding: 20px;
+  border: 3px solid rgb(255, 255, 0);
+}
+
 .container {
   padding: 20px;
   border: 1px solid rgb(255, 255, 0);
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 630px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .container {
+    grid-column: 1/-1;
+  }
+  .container {
+    grid-column: 1/6;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

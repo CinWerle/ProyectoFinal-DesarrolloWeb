@@ -11,8 +11,8 @@
     content="Hamburguesas carne smasheada, cheddar, tomate, lechuga y bacon. Zona Garin. Delivery y take away.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 
 <body class=>
@@ -23,13 +23,13 @@
         <img src="./img/logo.png" alt="logo de rancid burger">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-                <svg viewBox="0 0 100 80" width="40" height="40">
-                    <rect width="100" height="20"></rect>
-                    <rect y="30" width="100" height="20"></rect>
-                    <rect y="60" width="100" height="20"></rect>
-                </svg>
+        <svg viewBox="0 0 100 80" width="40" height="40">
+          <rect width="100" height="20"></rect>
+          <rect y="30" width="100" height="20"></rect>
+          <rect y="60" width="100" height="20"></rect>
+        </svg>
 
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -81,20 +81,33 @@
     </button>
   </div>
   <!--finaliza carousel-->
+  <header class="header">
+    <div>
+      <img id="info" src="./img/flyer.jpeg" alt="dias y horarios. jueves a domingos 19 a 00 hs">
+    </div>
 
-  <h2>¿Donde encontrarnos?</h2>
-<div class="iframe">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.079297213907!2d-58.37060498477029!3d-34.60215628045997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335325f19f9a3%3A0xfd34b93fba734a98!2sLuna%20Park!5e0!3m2!1ses-419!2sar!4v1674758984532!5m2!1ses-419!2sar"
-    width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div>
+      <h2>¿Donde encontrarnos?</h2>
+      <iframe id="iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.079297213907!2d-58.37060498477029!3d-34.60215628045997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335325f19f9a3%3A0xfd34b93fba734a98!2sLuna%20Park!5e0!3m2!1ses-419!2sar!4v1674758984532!5m2!1ses-419!2sar"
+        width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
 </body>
+
+<div class="contact-info">
+  <h4>Informacion</h4>
+  <ul>
+    <li><i class="fas fa-map-marker-alt"></i> Calle Falsa 123</li>
+    <li><i class="fas fa-phone"></i> (011) 1515151515</li>
+    <li><i class="fas fa-envelope-open-text"></i> rancidburgers@website.com</li>
+  </ul>
+</div>
+</header>
 <!--inicia footer-->
 
 <footer>
@@ -104,14 +117,17 @@
     <div class="row align-items-start">
 
       <div class="col">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="./img/iconos/facebook.png" alt="icono de facebook"></a>
+      </div>
+      <div class="col">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="./img/iconos/instagram.png" alt="icono de instagram"></a>
 
-        <img src="./img/iconos/facebook.png" alt="icono de facebook">
       </div>
       <div class="col">
-        <img src="./img/iconos/instagram.png" alt="icono de instagram">
-      </div>
-      <div class="col">
-        <img src="./img/iconos/wp.png" alt="icono de whatsapp">
+        <a href="https://www.whatsapp.com" target="_blank">
+          <img src="./img/iconos/wp.png" alt="icono de whatsapp"></a>
       </div>
     </div>
   </div>
