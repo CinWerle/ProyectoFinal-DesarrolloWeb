@@ -10,8 +10,41 @@ form {
 .form{
     padding: 20px;
     border: 3px solid $border; 
-
 }
 
-
+.container>.header, .container>.content, .container>.sidebar, .container, .container>div {
     
+    padding: 20px;
+   }
+   
+    .container>.header, .container {
+        grid-column: 1/-1; }    
+
+        .container>.content {
+            grid-column: span 3;
+            grid-row: span 4;
+        }
+        
+        .content>.article {
+            padding: 20px;
+            margin-top: 5px;
+        }
+        
+        .content .article h1,
+        .content .article  {
+            padding: 10px;
+        }
+        
+        .container>.sidebar {
+            display: grid;
+
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container .sidebar img {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+        }
+          

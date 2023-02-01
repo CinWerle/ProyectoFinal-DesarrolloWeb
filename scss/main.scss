@@ -11,20 +11,41 @@
 
 
 //media querys
-@media screen and (max-width:630px){
+@media screen and (max-width:760px){
     h1{        
         font-size: 16px;        
     }
+    #error{
+        margin-top: 30px;
+        width: auto;
+        height: auto;
+    }
+    .container .content {
+        grid-column: 1 / -1;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .header {
         text-align: center;
+        .sidebar {
+            grid-column: 1 / 4; }
     }
     .container {
         grid-column: 1 / -1;
     }
-    .container  {
-        grid-column: 1 / 6;
-    } 
+   
+    #iframe {
+        align-items: center;
+        width:auto;
+        height: auto;
+    }
+    #info {
+        width: 160px;
+        height: 250px;
+    }
+    form, .form {
+    width: auto;
+    height: auto;
+    }
 }
